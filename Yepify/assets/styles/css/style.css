@@ -19,6 +19,7 @@ body > header nav {
 }
 body > header nav > ul {
   border-bottom: 1px solid #64dfdf;
+  padding-bottom: 15px;
 }
 body > header nav > ul li {
   font-weight: bold;
@@ -39,12 +40,44 @@ body > main > section > section {
   justify-self: center;
 }
 body > main #playlist {
-  height: 60vh;
-  width: 18vw;
-  background-color: #5e60ce;
+  padding: 10px;
+  margin: auto;
+  height: 75vh;
+  width: 25vw;
+  background-color: rgba(0, 0, 0, 0.2);
   font-size: 1em;
+  justify-self: start;
+  align-self: center;
 }
-body > main #playlist > h3 {
+body > main #playlist section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border-bottom: 1px solid #64dfdf;
+}
+body > main #playlist section .purple {
+  color: #7400b8;
+}
+body > main #playlist section .blue {
+  color: #64dfdf;
+}
+body > main #playlist section section {
+  grid-column: 2/3;
+  margin: auto;
+  padding: auto;
+}
+body > main #playlist > ul {
+  list-style: none;
+}
+body > main #playlist > ul img {
+  height: 4vh;
+  width: 2vw;
+}
+body > main #playlist > ul li {
+  margin-left: 0;
+  margin: 15px;
+  border-bottom: 1px solid #006466;
+}
+body > main #playlist h2 {
   color: #7400b8;
 }
 
