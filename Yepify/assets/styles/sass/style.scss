@@ -68,7 +68,7 @@ body
         {
             padding:10px;
             margin:auto;
-            height:75vh;
+            height:60vh;
             width:25vw;
             background-color:rgba(0,0,0, 0.2);
             font-size:1em;
@@ -107,8 +107,7 @@ body
                 
                 li 
                 {
-                    margin-left:0;
-                    margin:15px;
+                    padding-left:0;
                     border-bottom:1px solid $skobeloff;
                 }
             }

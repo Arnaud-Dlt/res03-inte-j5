@@ -1,0 +1,43 @@
+html {
+  font-size: 16px;
+  font-family: "JetBrains Mono", monospace;
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(180deg, #272640, #43006b, #7400b8, #6930c3, #5e60ce, #5390d9);
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+body > header h1 {
+  display: none;
+}
+body > header nav {
+  width: 100vw;
+}
+body > header nav > ul {
+  border-bottom: 1px solid #64dfdf;
+  padding-bottom: 15px;
+}
+body > header nav > ul li {
+  font-weight: bold;
+  margin-left: 15vw;
+  display: inline-block;
+  align-self: center;
+  justify-self: center;
+}
+body main {
+  display: grid;
+  grid-template-rows: 0.2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+body main > section h2 {
+  grid-row: 1/2;
+}
+body main section {
+  grid-row: 2/3;
+}
+
+/*# sourceMappingURL=style2.css.map */
